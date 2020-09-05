@@ -1,6 +1,6 @@
-body{
+/* .body{
     background-color: brown;
-}
+} */
 .home{
     background-image: url("../images/background.jpeg");
     background-repeat: no-repeat;
@@ -28,4 +28,8 @@ h3{
     text-decoration: underline;
     text-align: center;
 
+}
+#order-pizza {
+    padding: 20px 50px 20px 50px;
+    font-family: 'Love Ya Like A Sister', cursive;
 }
