@@ -1,3 +1,6 @@
+body{
+    background-color: brown;
+}
 .home{
     background-image: url("../images/background.jpeg");
     background-repeat: no-repeat;
@@ -7,4 +10,22 @@
     font-size: 40px;
     color: white;
     text-align: center;
+}
+.about-us{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Gothic A1, sans-serif';
+}
+h1{
+    padding-top: 250px;
+}
+h2{
+    color: turquoise;
+    font-size: 14pt;
+    font-family: 'Courgette',cursive;
+}
+h3{
+    text-decoration: underline;
+    text-align: center;
+
 }
