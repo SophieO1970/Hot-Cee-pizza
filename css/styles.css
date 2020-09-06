@@ -33,9 +33,6 @@ h3{
     padding: 20px 50px 20px 50px;
     font-family: 'Love Ya Like A Sister', cursive;
 }
-#order-pizza {
-    color: #000;
-}
 .contacts {
     background-image: url("../image8.jpg");
     background-repeat: no-repeat;
@@ -65,12 +62,8 @@ input[type="email"] {
     color: #000;
     font-family: 'Love Ya Like A Sister', cursive;
     margin-top: 30px;
+    font-weight: 200px;
 }
-/* h4{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: large;
-    text-emphasis-color: red;
-} */
 .cdata {
     margin-top: 20px;
     margin-bottom: 15px;
@@ -109,11 +102,18 @@ h4 {
     padding: 0;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 1px;
+    color: white;
+}
+.orders{
+    color: black;
+    font-weight: 200px;
 }
 
 #order-pizza {
     padding: 20px 50px 20px 50px;
     font-family: 'Love Ya Like A Sister', cursive;
+        color: #000;
+
 }
 
 .order-overlay {

@@ -34,6 +34,9 @@
                     <li class="nav-item active">
                         <a class="nav-link" href="#order">Orders<span class="sr-only">(current)</span></a>
                     </li>
+                    <li class="nav -item active">
+                        <a class="nav-link" href="#contact">Contacts<span class="sr-only">(current)</span></a>
+                    </li>
                 </ul>
 
             </div>
@@ -159,7 +162,7 @@
             <div class="form-group row">
                 <div class="col-sm-2"></div>
                 <div class="col-sm-8 order-overlay text-center">
-                    <form class="col-sm-6 offset-sm-3 text-center">
+                    <form class="col-sm-6 offset-sm-3 text-center" id="order-form">
                         <label>Pick your pizza Flavour:</label>
                         <select class="custom-select custom-select-md mb-3 flavour" required>
                             <option value="">...</option>
@@ -199,8 +202,6 @@
                         <br>
                         <button type="submit" class="btn btn-primary">Add</button>
                     </form>
-                    <br> <br>
-                    <br>
                     <a href="#summary">
                         <button type="submit" class="btn btn-success checkout" id="checkout">
                             Checkout
@@ -217,29 +218,28 @@
                     <div class="customerdata row">
                         <div class="col-sm-3"></div>
                         <form action="" class="form-group col-sm-8 data">
-                            <input type="text" class="form-control cdata" placeholder="Enter your Name:">
-                            <input type="text" class="form-control cdata" placeholder="Enter your phone number: ">
-                            <input type="text" class="form-control cdata" placeholder="Enter the location: ">
-                            <input type="text" class="form-contol  cdata" placeholder="Enter your house number:">
+                            <input type="text" class="form-control cdata" placeholder="Enter your Name:" required>
+                            <input type="text" class="form-control cdata" placeholder="Enter your phone number: " required>
+                            <input type="text" class="form-control cdata" placeholder="Enter the location: "required>
+                            <input type="text" class="form-contol  cdata" placeholder="Enter your house number:" required>
                             <button class="btn bg-info text-center d-block mx-auto go">Make Delivery</button>
                         </form>
-                        <div class="col-sm-3"></div>
+                        <!-- <div class="col-sm-3"></div> -->
                     </div>
                 </div>
                 <div class="d-block mx-auto text-center">
                     <button class="deliver">Make Delivery</button>
-                    <button class="collect">Pick Up</button>
+                    <button class="collect">collect</button>
                 </div>
             </div>
-
-            <div class="contacts">
+            <div class="contacts" id="contact">
                 <div class="contact-overlay">
                     <h1 class="text-center contact text-white">Contacts:</h1>
                     <div class="row">
                         <div class="col-sm-1"></div>
                         <div class="col-sm-5 subs">
                             <h1 class="text-white text-center"> Call Us </h1>
-                            <p class="text-center">+254710272763</p>
+                            <p class="text-white text-center">+254710272763</p>
                             <form>
                                 <div class="email-info">
                                     <div class="form-group fill-all-form">
@@ -253,7 +253,7 @@
                             </form>
                         </div>
                         <div class="col-sm-5">
-                            <h4 class="text-center get-pizza">We love feedback..send us a mail</h4>
+                            <h4 class="text-center get-pizza">We value your feedback..send us a mail</h4>
                         </div>
                         <div class="col-sm-1"></div>
                     </div>

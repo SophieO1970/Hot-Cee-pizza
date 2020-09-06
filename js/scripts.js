@@ -115,5 +115,46 @@ $(document).ready(function () {
         }
     }
 
+    $("#order-form").submit(function (e) {
+        e.preventDefault();
+        var typeSelected = $("#type").val();
+        var sizeSelected = $("#size").val();
+        var toppingSelected = $("#topping").val();
+        var crustSelected = $("#crust").val();
+    
+        var newPizza = new Pizza(
+          typeSelected,
+          sizeSelected,
+          toppingSelected,
+          crustSelected
+        );
+    
+        pizzasOrdered.push(newPizza);
+        $("#type").val("");
+        $("#size").val("");
+        $("#topping").val("");
+        $("#crust").val("");
+    
+        totalCost = 0;
+    
+        for (let i = 0; i < pizzasOrdered.length; i++) {
+          totalCost += pizzasOrdered[i].getPizzaPrice();
+        }
+    
+        if (pizzasOrdered.length > 0) {
+          $("#form-title").empty();
+          $("#form-title").append("Add Another Order");
+        }
+    
+        $("#total-amount").fadeIn();
+        $("#checkout").fadeIn();
+        $("#orders-div").fadeIn();
+    
+        $("#total-amount").empty();
+        $("#total-amount").append(totalCost);
+        $(".total-amount").show();
+      });
+    
+
 
 });
