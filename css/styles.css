@@ -1,129 +1,166 @@
 /* .body{
     background-color: brown;
 } */
-.home{
-    background-image: url("../images/background.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 650pt;
-    font-size: 40px;
-    color: white;
-    text-align: center;
+.home {
+  background-image: url("../images/background.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 650pt;
+  font-size: 40px;
+  color: white;
+  text-align: center;
 }
-.about-us{
-    text-align: center;
-    font-size: 18px;
-    font-family: 'Gothic A1, sans-serif';
+.about-us {
+  text-align: center;
+  font-size: 18px;
+  font-family: "Gothic A1, sans-serif";
 }
-h1{
-    padding-top: 250px;
-}
-h2{
-    color: turquoise;
-    font-size: 14pt;
-    font-family: 'Courgette',cursive;
-}
-h3{
-    text-decoration: underline;
-    text-align: center;
 
+h2 {
+  color: turquoise;
+  font-size: 14pt;
+  font-family: "Courgette", cursive;
 }
-#order-pizza {
+h3 {
+  text-decoration: underline;
+  text-align: center;
+}
+/* #order-pizza {
     padding: 20px 50px 20px 50px;
     font-family: 'Love Ya Like A Sister', cursive;
-}
+} */
 .contacts {
-    background-image: url("../image8.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("../image8.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .contact-overlay {
-    height: inherit;
-    background-color: rgba(0, 0, 0, 0.7);
+  height: inherit;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 input[type="email"] {
-    background: transparent;
-    border: 1px solid #ffffff;
-    padding: .8em .7em;
-    border-radius: 20px;
-    outline: none !important;
-    font-size: 14px;
+  background: transparent;
+  border: 1px solid #ffffff;
+  padding: 0.8em 0.7em;
+  border-radius: 20px;
+  outline: none !important;
+  font-size: 14px;
 }
 
 .click-me {
-    margin-top: 20px;
-    margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .contact {
-    padding-top: 20px;
-    color: #000;
-    font-family: 'Love Ya Like A Sister', cursive;
-    margin-top: 30px;
-    font-weight: 200px;
+  padding-top: 20px;
+  color: #000;
+  font-family: "Love Ya Like A Sister", cursive;
+  margin-top: 30px;
+  font-weight: 200px;
 }
 .cdata {
-    margin-top: 20px;
-    margin-bottom: 15px;
+  margin-top: 20px;
+  margin-bottom: 15px;
 }
 
 .data {
-    height: inherit;
-    background-color: rgba(0, 0, 0, 0.8);
-    border-radius: 10px;
+  height: inherit;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+}
+
+.card img {
+  width: 100%;
+  height: 30vh;
+  object-fit: cover;
+}
+
+.card {
+  height: 50vh;
+  margin-bottom: 20px;
 }
 
 .go {
-    border-radius: 20px;
+  border-radius: 20px;
 }
 
-.click-me, button[type=submit], .deliver, .delivernot {
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
-    display: inline-block;
-    letter-spacing: 2px;
-    background-color: #ffbf00;
-    outline: none;
-    padding: 12.5px 13px;
-    border: none;
-    border-radius: 33px;
-    font-size: 14px;
+.click-me,
+button[type="submit"],
+.deliver,
+.delivernot {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  letter-spacing: 2px;
+  background-color: #ffbf00;
+  outline: none;
+  padding: 12.5px 13px;
+  border: none;
+  border-radius: 33px;
+  font-size: 14px;
 }
 
-.deliver, .delivernot {
-    margin: 10px;
+.deliver,
+.delivernot {
+  margin: 10px;
 }
 
 h4 {
-    margin: 0;
-    padding: 0;
-    font-family: 'Montserrat', sans-serif;
-    letter-spacing: 1px;
-    color: white;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1px;
+  color: white;
 }
-.orders{
-    color: black;
-    font-weight: 200px;
+.orders {
+  color: black;
+  font-weight: 200px;
 }
 
 #order-pizza {
-    padding: 20px 50px 20px 50px;
-    font-family: 'Love Ya Like A Sister', cursive;
-        color: #000;
-
+  /* padding: 20px 50px 20px 50px; */
+  font-family: "Love Ya Like A Sister", cursive;
+  color: #000;
 }
 
 .order-overlay {
-    height: inherit;
-    padding: 20px;
-    background-color: white;
-    border-radius: 20px;
+  height: inherit;
+  padding: 20px;
+  background-color: white;
+  border-radius: 20px;
 }
 
 .checkout {
-    border-radius: 20px;
-    margin-top: 20px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.order-summary {
+  position: relative;
+  color: white;
+  padding: 10px;
+}
+
+.contrast {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: black;
+  /* opacity: 0.5; */
+}
+
+.location {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.hidden{
+    display: none;
 }
