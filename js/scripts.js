@@ -103,22 +103,22 @@ $(document).ready(function () {
       totalCost += newPizza.getPizzaPrice();
       $("#list").append(
         "<tr>" +
-          "<td>" +
-          newPizza.type +
-          "</td>" +
-          "<td>" +
-          newPizza.size +
-          "</td>" +
-          "<td>" +
-          newPizza.topping +
-          "</td>" +
-          "<td>" +
-          newPizza.crust +
-          "</td>" +
-          "<td>" +
-          newPizza.getPizzaPrice() +
-          "</td>" +
-          "</tr>"
+        "<td>" +
+        newPizza.type +
+        "</td>" +
+        "<td>" +
+        newPizza.size +
+        "</td>" +
+        "<td>" +
+        newPizza.topping +
+        "</td>" +
+        "<td>" +
+        newPizza.crust +
+        "</td>" +
+        "<td>" +
+        newPizza.getPizzaPrice() +
+        "</td>" +
+        "</tr>"
       );
     }
 
@@ -153,8 +153,8 @@ $(document).ready(function () {
     } else {
       alert(
         "Your total bill is " +
-          totalCost +
-          ". Your order will be ready for collection in the next 1 hour"
+        totalCost +
+        ". Your order will be ready for collection in the next 1 hour"
       );
       window.location.reload();
     }
@@ -167,12 +167,12 @@ $(document).ready(function () {
     totalCost += 200;
     alert(
       "Your total Bill is " +
-        totalCost +
-        ". Your order will be delivered to the address (" +
-        homeAddress +
-        ", " +
-        houseNumber +
-        ") in the next 2 hours"
+      totalCost +
+      ". Your order will be delivered to the address (" +
+      homeAddress +
+      ", " +
+      houseNumber +
+      ") in the next 2 hours"
     );
     window.location.reload();
   });

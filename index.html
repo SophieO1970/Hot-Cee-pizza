@@ -1,395 +1,269 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="css/styles.css" type="text/css" />
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.js"
-      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
-      crossorigin="anonymous"
-    ></script>
-    <script src="js/scripts.js"></script>
-    <title>Hot Cee Pizza</title>
-  </head>
 
-  <body>
-    <div class="container-fluid">
-      <nav
-        id="navbar_top"
-        class="navbar navbar-expand-lg navbar-light bg-light"
-      >
-        <a class="navbar-brand" href="#">Home</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/styles.css" type="text/css" />
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
+  <title>Hot Cee Pizza</title>
+</head>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#about-us"
-                >About us<span class="sr-only">(current)</span></a
-              >
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#menu"
-                >Menu <span class="sr-only">(current)</span></a
-              >
-            </li>
+<body>
+  <div class="container-fluid">
+    <nav id="navbar_top" class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Home</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-            <li class="nav-item active">
-              <a class="nav-link" href="#order"
-                >Orders<span class="sr-only">(current)</span></a
-              >
-            </li>
-            <li class="nav -item active">
-              <a class="nav-link" href="#contact"
-                >Contacts<span class="sr-only">(current)</span></a
-              >
-            </li>
-          </ul>
-        </div>
-      </nav>
-      <div class="home" id="Home">
-        <h1>HOT CEE PIZZA</h1>
-        <h2>Welcome to Hot Cee Pizza</h2>
-        <p>Homeloading decisions for a good meal start at this place .</p>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#about-us">About us<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#menu">Menu <span class="sr-only">(current)</span></a>
+          </li>
+
+          <li class="nav-item active">
+            <a class="nav-link" href="#order">Orders<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav -item active">
+            <a class="nav-link" href="#contact">Contacts<span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
       </div>
+    </nav>
+    <div class="home" id="Home">
+      <h1>HOT CEE PIZZA</h1>
+      <h2>Welcome to Hot Cee Pizza</h2>
+      <p>Homeloading decisions for a good meal start at this place .</p>
+    </div>
 
-      <div class="about-us">
-        <h3 id="about-us">About us</h3>
-        <p>
-          The best and most incredible thing about us is connection we give what
-          you cannot find elsewhere at an affordable price and most importantly
-          our reputation is built on trust and efficiency to deliver.
-        </p>
-        <p>
-          Whether you're linking up with fam, mabeshte or even your colleagues,
-          no other plan beats our pizza #jibambe part. Pop by your nearest Hot
-          Cee pizza outlet to enjoy this awesomeness
-        </p>
-        <br />
-      </div>
-      <h3>Menu</h3>
-      <div class="row" id="menu">
-        <div class="col-md-3">
-          <div class="card">
-            <img class="card-img-top" src="images/image1.jpg" alt="image1" />
-            <div class="card-body">
-              <h4 class="card-title">Chicken Mushroom</h4>
-              <p class="card-text">
-                Sweet Pizza offered with plenty of mushroom
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card">
-            <img class="card-img-top" src="images/image2.png" alt="image2" />
-            <div class="card-body">
-              <h4 class="card-title">Hawaiian</h4>
-              <p class="card-text">
-                Amazing Pizza offered with plenty of cheese
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card">
-            <img class="card-img-top" src="images/image3.png" alt="image3" />
-            <div class="card-body">
-              <h4 class="card-title">Regina</h4>
-              <p class="card-text">
-                lip licking Pizza offered with plenty of tomato.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card">
-            <img class="card-img-top" src="images/image4.jpg" alt="image4" />
-            <div class="card-body">
-              <h4 class="card-title">Bbq Steak</h4>
-              <p class="card-text">
-                Looking for a an amazing eat out,try our Bbq Steak.
-              </p>
-            </div>
+    <div class="about-us">
+      <h3 id="about-us">About us</h3>
+      <p>
+        Hot Cee Pizza is a number one leading outlet that deals with pizza.
+        Based in Nairobi, with some outlets in towns like Mombasa,Kisumu and Eldoret,Hot Cee Pizza started in the
+        earlies 2000's.
+        The best and most incredible thing about us is connection we give what
+        you cannot find elsewhere at an affordable price and most importantly
+        our reputation is built on trust and efficiency to deliver.
+      </p>
+      <p>
+        Whether you're linking up with fam, mabeshte or even your colleagues,
+        no other plan beats our pizza. Pop by your nearest Hot
+        Cee pizza outlet to enjoy this awesomeness
+      </p>
+      <br />
+    </div>
+    <h3>Menu</h3>
+    <div class="row" id="menu">
+      <div class="col-md-3">
+        <div class="card">
+          <img class="card-img-top" src="images/image1.jpg" alt="image1" />
+          <div class="card-body">
+            <h4 class="card-title">Chicken Mushroom</h4>
+            <p class="card-text">
+              Sweet Pizza offered with plenty of mushroom
+            </p>
           </div>
         </div>
       </div>
-
-      <div class="row">
-        <div class="col-md-3">
-          <div class="card">
-            <img class="card-img-top" src="images/image5.png" alt="image5" />
-            <div class="card-body">
-              <h4 class="card-title">Chicken Bba</h4>
-              <p class="card-text">
-                For the lovers of chicken,you all catered for.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card">
-            <img class="card-img-top" src="images/image6.jpeg" alt="image6" />
-            <div class="card-body">
-              <h4 class="card-title">Chicken Tikka</h4>
-              <p class="card-text">
-                Just like its name,experience the sweetness of the Tikka
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card">
-            <img class="card-img-top" src="image7.jpg" alt="image7" />
-            <div class="card-body">
-              <h4 class="card-title">Veg Feast</h4>
-              <p class="card-text">Sweet and delicious veggies.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card">
-            <img class="card-img-top" src="image8.jpg" alt="image8" />
-            <div class="card-body">
-              <h4 class="card-title">Peri Peri Chicken</h4>
-              <p class="card-text">
-                For the chicken lovers,you would not want to miss on this.
-              </p>
-            </div>
+      <div class="col-md-3">
+        <div class="card">
+          <img class="card-img-top" src="images/image2.png" alt="image2" />
+          <div class="card-body">
+            <h4 class="card-title">Hawaiian</h4>
+            <p class="card-text">
+              Amazing Pizza offered with plenty of cheese
+            </p>
           </div>
         </div>
       </div>
-      <br /><br />
-      <div class="orders" id="order">
-        <div class="row">
-          <div class="col-md-2"></div>
-          <div class="col-md-4">
-            <h1 class="text-center" id="order-pizza">Order Pizza</h1>
-            <div class="form-group row">
-              <div class="order-overlay text-center">
-                <form class="text-center" id="order-form">
-                  <label>Pick your pizza Flavour:</label>
-                  <select
-                    class="custom-select custom-select-md mb-3 flavour"
-                    id="type"
-                    required
-                  >
-                    <option value="">...</option>
-                    <option value="chicken mushroom">Chicken Mushroom</option>
-                    <option value="hawaiian">Hawaiian</option>
-                    <option value="regina">Regina</option>
-                    <option value="bbq steak">BBQ Steak</option>
-                  </select>
-                  <label>Chose your preferred Size:</label>
-                  <select
-                    class="custom-select custom-select-md mb-3"
-                    id="size"
-                    required
-                  >
-                    <option value="">...</option>
-                    <option value="small">Regular</option>
-                    <option value="medium">Medium</option>
-                    <option value="large">Large</option>
-                  </select>
-                  <label for="crust">Choose your favorite Crust:</label>
-                  <select
-                    class="custom-select custom-select-md mb-3"
-                    id="crust"
-                    required
-                  >
-                    <option value="">...</option>
-                    <option value="thin">Thin Crust</option>
-                    <option value="thick">Thick Crust</option>
-                  </select>
-                  <label>Select Your favourite Toppings</label>
-                  <select
-                    class="custom-select custom-select-md mb-3"
-                    id="toppings"
-                    required
-                  >
-                    <option value="">...</option>
-                    <option value="tomato">Tomato</option>
-                    <option value="onions">Onions</option>
-                    <option value="mushroom">Mushroom</option>
-                    <option value="greenpepper">Green Pepper</option>
-                  </select>
-                  <label for="number">Number of Pizza's</label>
-                  <input
-                    type="number"
-                    class="form-control"
-                    id="number-of-pizzas"
-                    placeholder="Number of pizzas"
-                    min="1"
-                    required
-                  />
-                  <br />
-                  <button type="submit" class="btn btn-primary">Add</button>
-                </form>
-
-                <button
-                  type="submit"
-                  class="btn btn-success checkout"
-                  id="checkout"
-                >
-                  Checkout
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <h1 class="text-center" id="summary">Order Summary</h1>
-            <h2 class="text-center summary">
-              Hello there, your order is as follows:
-            </h2>
-            <table class="table">
-              <thead>
-                <tr>
-                  <th scope="col">Type</th>
-                  <th scope="col">Size</th>
-                  <th scope="col">Topping</th>
-                  <th scope="col">Crust</th>
-                  <th scope="col">Price</th>
-                </tr>
-              </thead>
-              <tbody id="list"></tbody>
-            </table>
-          </div>
-          <div class="col-md-2"></div>
-        </div>
-      </div>
-      <div class="order-summary hidden" id="sum-order">
-        <!-- <div class="contrast"></div> -->
-
-        <div class="cdata-overlay">
-          <div class="customerdata row">
-            <div class="col-md-2"></div>
-            <div class="col-md-7">
-              <form
-                action=""
-                class="form-group col-sm-8 data"
-                id="checkout-options"
-              >
-                <label>Name</label>
-                <input
-                  type="text"
-                  class="form-control cdata"
-                  placeholder="Enter your Name:"
-                  id="name"
-                  required
-                />
-                <label>Mobile Number</label>
-                <input
-                  type="text"
-                  class="form-control cdata"
-                  placeholder="Enter your phone number: "
-                  id="phone-number"
-                  required
-                />
-                <label>Delivery Option</label>
-                <select
-                  class="custom-select custom-select-md mb-3"
-                  id="delivery-option"
-                  required
-                >
-                  <option value="">...</option>
-                  <option value="deliver">Deliver</option>
-                  <option value="collect">Collect</option>
-                </select>
-                <div class="d-block mx-auto text-center">
-                  <button type="submit" class="deliver btn btn-success">
-                    Proceed
-                  </button>
-                </div>
-              </form>
-              <div class="location hidden">
-                <form id="location-form">
-                  <div class="form-group fill-all-form">
-                    <label for="address">Home Address</label>
-                    <input
-                      type="text"
-                      class="form-control email"
-                      id="address"
-                      placeholder="Enter Address"
-                      required
-                    />
-                  </div>
-                  <div class="form-group fill-all-form">
-                    <label for="house-no">House Number</label>
-                    <input
-                      type="text"
-                      class="form-control email"
-                      id="house-no"
-                      placeholder="Enter House Number"
-                      required
-                    />
-                  </div>
-                  <button type="submit" class="btn click-me">Continue</button>
-                </form>
-              </div>
-            </div>
-            <div class="col-md-3"></div>
-
-            <!-- <div class="col-sm-3"></div> -->
+      <div class="col-md-3">
+        <div class="card">
+          <img class="card-img-top" src="images/image3.png" alt="image3" />
+          <div class="card-body">
+            <h4 class="card-title">Regina</h4>
+            <p class="card-text">
+              lip licking Pizza offered with plenty of tomato.
+            </p>
           </div>
         </div>
-        <!-- <div class="d-block mx-auto text-center">
-                    <button class="deliver">Make Delivery</button>
-                    <button class="collect">collect</button>
-                </div> -->
       </div>
-      <div class="contacts" id="contact">
-        <div class="contact-overlay">
-          <h1 class="text-center contact text-white">Contacts:</h1>
-          <div class="row">
-            <div class="col-sm-1"></div>
-            <div class="col-sm-5 subs">
-              <h1 class="text-white text-center">Call Us</h1>
-              <p class="text-white text-center">+254710272763</p>
-              <form>
-                <div class="email-info">
-                  <div class="form-group fill-all-form">
-                    <input
-                      type="email"
-                      class="form-control bg-transparent email"
-                      id="email"
-                      placeholder="Email"
-                      required=""
-                    />
-                  </div>
-                </div>
-                <div class="email-info text-center">
-                  <button class="btn click-me" onclick="subscribe();">
-                    Subscribe
-                  </button>
-                </div>
-              </form>
-            </div>
-            <div class="col-sm-5">
-              <h4 class="text-center get-pizza">
-                We value your feedback..send us a mail
-              </h4>
-            </div>
-            <div class="col-sm-1"></div>
+      <div class="col-md-3">
+        <div class="card">
+          <img class="card-img-top" src="images/image4.jpg" alt="image4" />
+          <div class="card-body">
+            <h4 class="card-title"></h4>Bbq Steak</h4>
+            <p class="card-text">
+              Looking for a an amazing eat out,try our Bbq Steak.
+            </p>
           </div>
         </div>
       </div>
     </div>
-  </body>
+    <br /><br />
+    <div class="orders" id="order">
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-4">
+          <h1 class="text-center" id="order-pizza">Order Pizza</h1>
+          <div class="form-group row">
+            <div class="order-overlay text-center">
+              <form class="text-center" id="order-form">
+                <label>Pick your pizza Flavour:</label>
+                <select class="custom-select custom-select-md mb-3 flavour" id="type" required>
+                  <option value="">...</option>
+                  <option value="chicken mushroom">Chicken Mushroom</option>
+                  <option value="hawaiian">Hawaiian</option>
+                  <option value="regina">Regina</option>
+                  <option value="bbq steak">BBQ Steak</option>
+                </select>
+                <label>Chose your preferred Size:</label>
+                <select class="custom-select custom-select-md mb-3" id="size" required>
+                  <option value="">...</option>
+                  <option value="small">Regular</option>
+                  <option value="medium">Medium</option>
+                  <option value="large">Large</option>
+                </select>
+                <label for="crust">Choose your favorite Crust:</label>
+                <select class="custom-select custom-select-md mb-3" id="crust" required>
+                  <option value="">...</option>
+                  <option value="thin">Thin Crust</option>
+                  <option value="thick">Thick Crust</option>
+                </select>
+                <label>Select Your favourite Toppings</label>
+                <select class="custom-select custom-select-md mb-3" id="toppings" required>
+                  <option value="">...</option>
+                  <option value="tomato">Tomato</option>
+                  <option value="onions">Onions</option>
+                  <option value="mushroom">Mushroom</option>
+                  <option value="greenpepper">Green Pepper</option>
+                </select>
+                <label for="number">Number of Pizza's</label>
+                <input type="number" class="form-control" id="number-of-pizzas" placeholder="Number of pizzas" min="1"
+                  required />
+                <br />
+                <button type="submit" class="btn btn-primary">Add</button>
+              </form>
+
+              <button type="submit" class="btn btn-success checkout" id="checkout">
+                Checkout
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <h1 class="text-center" id="summary">Order Summary</h1>
+          <h2 class="text-center summary">
+            Hello there, your order is as follows:
+          </h2>
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Type</th>
+                <th scope="col">Size</th>
+                <th scope="col">Topping</th>
+                <th scope="col">Crust</th>
+                <th scope="col">Price</th>
+              </tr>
+            </thead>
+            <tbody id="list"></tbody>
+          </table>
+        </div>
+        <div class="col-md-2"></div>
+      </div>
+    </div>
+    <div class="order-summary hidden" id="sum-order">
+      <!-- <div class="contrast"></div> -->
+
+      <div class="cdata-overlay">
+        <div class="customerdata row">
+          <div class="col-md-2"></div>
+          <div class="col-md-7">
+            <form action="" class="form-group col-sm-8 data" id="checkout-options">
+              <label>Name</label>
+              <input type="text" class="form-control cdata" placeholder="Enter your Name:" id="name" required />
+              <label>Mobile Number</label>
+              <input type="text" class="form-control cdata" placeholder="Enter your phone number: " id="phone-number"
+                required />
+              <label>Delivery Option</label>
+              <select class="custom-select custom-select-md mb-3" id="delivery-option" required>
+                <option value="">...</option>
+                <option value="deliver">Deliver</option>
+                <option value="collect">Collect</option>
+              </select>
+              <div class="d-block mx-auto text-center">
+                <button type="submit" class="deliver btn btn-success">
+                  Proceed
+                </button>
+              </div>
+            </form>
+            <div class="location hidden">
+              <form id="location-form">
+                <div class="form-group fill-all-form">
+                  <label for="address">Home Address</label>
+                  <input type="text" class="form-control email" id="address" placeholder="Enter Address" required />
+                </div>
+                <div class="form-group fill-all-form">
+                  <label for="house-no">House Number</label>
+                  <input type="text" class="form-control email" id="house-no" placeholder="Enter House Number"
+                    required />
+                </div>
+                <button type="submit" class="btn click-me">Continue</button>
+              </form>
+            </div>
+          </div>
+          <div class="col-md-3"></div>
+
+          <!-- <div class="col-sm-3"></div> -->
+        </div>
+      </div>
+      <!-- <div class="d-block mx-auto text-center">
+                    <button class="deliver">Make Delivery</button>
+                    <button class="collect">collect</button>
+                </div> -->
+    </div>
+    <div class="contacts" id="contact">
+      <div class="contact-overlay">
+        <h1 class="text-center contact text-white">Contacts:</h1>
+        <div class="row">
+          <div class="col-sm-1"></div>
+          <div class="col-sm-5 subs">
+            <h1 class="text-white text-center">Call Us</h1>
+            <p class="text-white text-center">+254710272763</p>
+            <form>
+              <div class="email-info">
+                <div class="form-group fill-all-form">
+                  <input type="email" class="form-control bg-transparent email" id="email" placeholder="Email"
+                    required="" />
+                </div>
+              </div>
+              <div class="email-info text-center">
+                <button class="btn click-me" onclick="subscribe();">
+                  Subscribe
+                </button>
+              </div>
+            </form>
+          </div>
+          <div class="col-sm-5">
+            <h4 class="text-center get-pizza">
+              We value your feedback..send us a mail
+            </h4>
+          </div>
+          <div class="col-sm-1"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
 </html>
