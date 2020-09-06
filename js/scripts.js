@@ -10,31 +10,31 @@ $(document).ready(function () {
     };
     Pizza.prototype.getToppingPrice = function () {
         if (this.size === "large") {
-            if (this.topping === "Tomato") {
+            if (this.topping === "tomato") {
                 return 80;
-            } else if (this.topping === "Onions") {
+            } else if (this.topping === "onions") {
                 return 70;
-            } else if (this.topping === "Mushroom") {
+            } else if (this.topping === "mushroom") {
                 return 60;
             } else {
                 return 100;
             }
         } else if (this.size === "medium") {
-            if (this.topping === "Tomato") {
+            if (this.topping === "tomato") {
                 return 60;
-            } else if (this.topping === "Onions") {
+            } else if (this.topping === "onions") {
                 return 50;
-            } else if (this.topping === "Mushroom") {
+            } else if (this.topping === "mushroom") {
                 return 40;
             } else {
                 return 30;
             }
         } else {
-            if (this.topping === "Tomato") {
+            if (this.topping === "tomato") {
                 return 50;
-            } else if (this.topping === "Onions") {
+            } else if (this.topping === "onions") {
                 return 45;
-            } else if (this.topping === "Mushroom") {
+            } else if (this.topping === "mushroom") {
                 return 40;
             } else {
                 return 20;
@@ -43,31 +43,31 @@ $(document).ready(function () {
     }
     Pizza.prototype.getTypePrice = function () {
         if (this.size === "large") {
-            if (this.type === "Chicken Mushroom") {
+            if (this.type === "chicken mushroom") {
                 return 1500;
-            } else if (this.type === "Hawaiian") {
+            } else if (this.type === "hawaiian") {
                 return 1300;
-            } else if (this.type === "Regina") {
+            } else if (this.type === "regina") {
                 return 1200;
             } else {
                 return 1000;
             }
         } else if (this.size === "medium") {
-            if (this.type === "Chicken Mushroom") {
+            if (this.type === "chicken mushroom") {
                 return 1400;
             } else if (this.type === "haiwaiian") {
                 return 1200;
-            } else if (this.type === "Regina") {
+            } else if (this.type === "regina") {
                 return 1100;
             } else {
                 return 900;
             }
         } else {
-            if (this.type === "Chicken Mushroom") {
+            if (this.type === "chicken mushroom") {
                 return 1300;
-            } else if (this.type === "Hawaiian") {
+            } else if (this.type === "hawaiian") {
                 return 1100;
-            } else if (this.type === "Regina") {
+            } else if (this.type === "regina") {
                 return 1000;
             } else {
                 return 800;
@@ -80,8 +80,40 @@ $(document).ready(function () {
         } else {
             return 50
         }
+    };
+    Pizza.prototype.getTypePrice = function () {
+        if (this.size === "large") {
+            if (this.type === "chicken mushroom") {
+                return 1500;
+            } else if (this.type === "hawaiian") {
+                return 1300;
+            } else if (this.type === "regina") {
+                return 1200;
+            } else {
+                return 1000;
+            }
+        } else if (this.size === "medium") {
+            if (this.type === "chicken mushroom") {
+                return 1400;
+            } else if (this.type === "hawaiian") {
+                return 1200;
+            } else if (this.topping === "regina") {
+                return 1100;
+            } else {
+                return 900;
+            }
+        } else {
+            if (this.type === "chicken mushroom") {
+                return 1300;
+            } else if (this.type === "hawaiian") {
+                return 1100;
+            } else if (this.type === "regina") {
+                return 1000;
+            } else {
+                return 800;
+            }
+        }
     }
-
 
 
 });
